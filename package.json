@@ -1,0 +1,9 @@
+{
+  "name": "@vinimarcili/gh-review-notify",
+  "version": "1.0.0",
+  "description": "Notify when a PR is ready to review or is reviewed",
+  "repository": "https://github.com/vinimarcili/gh-review-notify",
+  "scripts": {},
+  "author": "Vinícius Marcili",
+  "license": "ISC"
+}

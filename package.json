@@ -4,7 +4,8 @@
   "description": "Notify when a PR is ready to review or is reviewed",
   "repository": "https://github.com/vinimarcili/gh-review-notify",
   "scripts": {
-    "postinstall": "npx husky install"
+    "postinstall": "./postinstall.sh",
+    "lint": "eslint . --ext .ts --fix"
   },
   "author": "Vinícius Marcili",
   "license": "ISC",

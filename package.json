@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "Notify when a PR is ready to review or is reviewed",
   "repository": "https://github.com/vinimarcili/gh-review-notify",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "npx husky install"
+  },
   "author": "Vinícius Marcili",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "typescript": "^5.3.3"
+  }
 }
